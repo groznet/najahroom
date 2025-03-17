@@ -402,6 +402,18 @@
     });
 }(jQuery));
 
+// KERIM CUSTOM CODE
+// Disable copy, paste, and select text
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
+// Disable select text
+document.addEventListener('selectstart', function (e) {
+    e.preventDefault();
+});
+
+// Disable copy text
 
 
 
